@@ -1,0 +1,39 @@
+[project]
+name = 'Augmented-Cognition-and-Brain-Computer-Interface'
+description = ''
+authors = []
+telemetry = true
+cache_dir = './.cache'
+requirements = []
+[contracts.bci-application-development]
+path = 'contracts/bci-application-development.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.cognitive-data-storage]
+path = 'contracts/cognitive-data-storage.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.cognitive-enhancement-marketplace]
+path = 'contracts/cognitive-enhancement-marketplace.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.device-integration]
+path = 'contracts/device-integration.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.performance-rewards]
+path = 'contracts/performance-rewards.clar'
+clarity_version = 2
+epoch = 2.5
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
