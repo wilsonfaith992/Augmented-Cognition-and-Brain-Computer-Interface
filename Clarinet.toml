@@ -20,6 +20,11 @@ path = 'contracts/cognitive-enhancement-marketplace.clar'
 clarity_version = 2
 epoch = 2.5
 
+[contracts.device-integration]
+path = 'contracts/device-integration.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.performance-rewards]
 path = 'contracts/performance-rewards.clar'
 clarity_version = 2

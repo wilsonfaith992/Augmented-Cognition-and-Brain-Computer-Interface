@@ -65,6 +65,11 @@ plan:
             path: contracts/cognitive-enhancement-marketplace.clar
             clarity-version: 2
         - emulated-contract-publish:
+            contract-name: device-integration
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/device-integration.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: performance-rewards
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/performance-rewards.clar

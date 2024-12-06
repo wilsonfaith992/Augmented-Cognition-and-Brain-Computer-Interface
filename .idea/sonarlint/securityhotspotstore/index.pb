@@ -11,3 +11,7 @@ R
 "contracts/performance-rewards.clar,1/3/13fee578476d1dff42d50420d548a11c82f7fb92
 Q
 !tests/performance-rewards.test.ts,f/c/fcedd76a4d8ec15fc5146f25e8f35f22bacb096f
+Q
+!contracts/device-integration.clar,1/b/1b09246074e3d796d5139cebadb4228a8a123f87
+P
+ tests/device-integration.test.ts,b/3/b34995ac2556aee5eebb376dd610d5200b266bb4
